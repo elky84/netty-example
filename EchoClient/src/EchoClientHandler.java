@@ -15,7 +15,6 @@ public class EchoClientHandler extends ChannelInboundHandlerAdapter{
         byte[] str = "sign_in".getBytes();
         // 예제 바이트 배열을 메시지에 씁니다.
         message.writeBytes(str);
-
     }
 
     // 채널이 활성화 되면 동작할 코드를 정의합니다.
@@ -39,9 +38,9 @@ public class EchoClientHandler extends ChannelInboundHandlerAdapter{
 
         System.out.println(str);
 
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         System.out.print("Message : ");
 
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String input = br.readLine();
         ByteBuf echoMsg = Unpooled.buffer(EchoClient.MESSAGE_SIZE);
         echoMsg.writeBytes(input.getBytes());
