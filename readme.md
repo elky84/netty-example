@@ -1,5 +1,5 @@
 [![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=elky-essay)](https://elky84.github.io)
-<img src="https://img.shields.io/badge/made%20with-Java-brightgreen.svg" alt="made with Java">
+![Made with](https://img.shields.io/badge/made%20with-Java-orange.svg)
 
 ![GitHub forks](https://img.shields.io/github/forks/elky84/netty-example.svg?style=social&label=Fork)
 ![GitHub stars](https://img.shields.io/github/stars/elky84/netty-example.svg?style=social&label=Stars)
